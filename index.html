@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Шаблон Сайта</title>
+</head>
+<body>
+  <!-- Меню с названием организации и ссылками на секции сайта -->
+  <header>
+    <div class="header-container">
+      <div class="company-logo">ДЕКОР-МАСТЕР</div>
+      <nav>
+        <a href="#link-to-home">Главная</a>
+        <a href="#link-to-terms">Этапы работы</a>
+        <a href="#link-to-prices">Наши цены</a>
+        <a href="#link-to-portfolio">Портфолио</a>
+      </nav>
+    </div>
+  </header>
+
+  <!--Баннер-->
+  <section class="hero-section">
+    <a name="link-to-home"></a>
+    <div class="hero-section-darken-wrapper">
+      <div class="hero-section-content">
+        <h1>Комплексный ремонт квартир в Рязани</h1>
+        <h2>Список наших услуг:</h2>
+        <div class="list-of-services">
+          <p>Поклейка обоев</p>
+          <p>Покраска обоев/стен</p>
+          <p>Штукатурка</p>
+          <p>Шпатлевка стен</p>
+          <p>Укладка линолеума</p>
+          <p>Укладка ламината</p>
+          <p>Выравнивание пола</p>
+          <p>Монтаж/демонтаж перегородок</p>
+          <p>Декоративная штукатурка</p>
+          <p>Декоративная облицовка</p>
+          <p>Фигурные элементы из гипсокартона</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Секция "Позвоните нам!"-->
+  <section class="contact-us">
+      <div class="contact-us-content">
+        <h2>Свяжитесь с нами!</h2>
+        <p class="comment">Позвольте нам сделать ваш ремонт таким, каким его хотите видеть вы.</p>
+        <span>+7 999 999 99 99</span>
+        <p class="comment">Ежедневно с 8:00 до 21:00</p>
+      </div>
+  </section>
+
+  <!-- Этапы работы -->
+  <section class="working-stages">
+    <div class="working-stages-content">
+      <h2>Ремонт "под ключ" за 3 этапа</h2>
+      <div class="stage-item-group">
+
+        <div class="stage-item">
+          <h3>Этап 1 - Заявка</h3>
+          <div class="stage-content">
+            <img id="phone-call" src="./icons/contact.svg" alt="">
+            <ul class="stage-description">
+              <li>Оставьте заявку по номеру +7 999 999 99 99</li>
+              <li>Приезжаем на объект и составляем смету</li>
+              <li>Подписываем договор и приступаем к работе</li>
+            </ul>
+          </div>
+        </div>
+    
+        <div class="stage-item">
+          <h3>Этап 2 - Проведение работ</h3>
+          <div class="stage-content">
+            <img src="./icons/hammer.svg" alt="">
+            <ul class="stage-description">
+              <li>Подготавливаем объект</li>
+              <li>Закупаем материалы и интсрументы</li>
+              <li>Делаем ремонт</li>
+            </ul>
+          </div>
+        </div>
+    
+        <div class="stage-item">
+          <h3>Этап 3 - Подведение итогов</h3>
+          <div class="stage-content">
+            <img src="./icons/cost.svg" alt="">
+            <ul class="stage-description">
+              <li>Убираем строительный мусор</li>
+              <li>Подписываем акт выполненных работ</li>
+              <li>Сдаем объект и получаем расчет</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="period-of-time">
+    <a name="link-to-terms"></a>
+    <h2>Сколько требуется времени на выполнение всех работ?</h2>
+    <p class="comment">Срок сдачи проекта зависит от его объемов.</p>
+
+    <div class="terms-of-projects">
+      <div class="project-item">
+        <div class="project-volume">
+          <img src="./icons/house-small.svg" alt="">
+          <p>до 50 кв. м.</p>
+        </div>
+        <p class="project-time">1 месяц</p>
+      </div>
+
+      <div class="project-item">
+        <div class="project-volume">
+          <img src="./icons/house-medium.svg" alt="">
+          <p>50 - 100 кв. м.</p>
+        </div>
+        <p class="project-time">1.5 месяца</p>
+      </div>
+
+      <div class="project-item">
+        <div class="project-volume">
+          <img src="./icons/house-large.svg" alt="">
+          <p>от 100 кв. м.</p>
+        </div>
+        <p class="project-time">2 месяца</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="pricing">
+    <a name="link-to-prices"></a>
+    <div class="pricing-content">
+
+      <h2>Наши Цены</h2>
+
+      <div class="price-table">
+        <div class="tariff-column">
+          <div class="tariff-name">
+            <h3>Эконом</h3>
+            <p>(от 2000 руб./кв. м.)</p>
+          </div>
+          <ul class="service-names">
+            <li class="service-item">Наклейка обоев</li>
+            <li class="service-item">Покраска обоев (стен)</li>
+            <li class="service-item">Укладка линолеума</li>
+          </ul>
+        </div>
+        <div class="tariff-column">
+          <div class="tariff-name">
+            <h3>Стандарт</h3>
+            <p>(от 3500 руб./кв. м.)</p>
+          </div>
+          <ul class="service-names">
+            <li class="service-item">Наклейка обоев</li>
+            <li class="service-item">Покраска обоев (стен)</li>
+            <li class="service-item">Укладка линолеума</li>
+            <li class="service-item">Штукатурка</li>
+            <li class="service-item">Шпатлевка стен</li>
+            <li class="service-item">Выравнивание пола</li>
+            <li class="service-item">Укладка ламината</li>
+          </ul>
+        </div>
+        <div class="tariff-column">
+          <div class="tariff-name">
+            <h3>Премиум</h3>
+            <p>(от 5000 руб./кв. м.)</p>
+          </div>
+          <ul class="service-names">
+            <li class="service-item">Наклейка обоев</li>
+            <li class="service-item">Покраска обоев (стен)</li>
+            <li class="service-item">Укладка линолеума</li>
+            <li class="service-item">Штукатурка</li>
+            <li class="service-item">Шпатлевка стен</li>
+            <li class="service-item">Выравнивание пола</li>
+            <li class="service-item">Укладка ламината</li>
+            <li class="service-item">Облицовка декоративными элементами</li>
+            <li class="service-item">Монтаж/демонтаж перегородок</li>
+            <li class="service-item">Фигурные элементы из ГКЛ гипсокартонных листов</li>
+            <li class="service-item">Декоративная штукатурка. Работа по дизайн-проекту</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="discount-offer">
+    <h2>Специальные предложения:</h2>
+    <div class="discount-offer-content">
+      <div class="discount-item">
+        <span class="discount-number">5%</span>
+        <p class="comment">При заказе от 100 тыс. рублей</p>
+      </div>
+
+      <div class="discount-item">
+        <span class="discount-number">7%</span>
+        <p class="comment">При заказе от 200 тыс. рублей</p>
+      </div>
+
+      <div class="discount-item">
+        <span class="discount-number">10%</span>
+        <p class="comment">При заказе от 300 тыс. рублей</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact-us">
+    <div class="contact-us-content">
+      <h2>Свяжитесь с нами!</h2>
+      <p class="comment">Позвольте нам сделать ваш ремонт таким, каким его хотите видеть вы.</p>
+      <span>+7 999 999 99 99</span>
+      <p class="comment">Ежедневно с 8:00 до 21:00</p>
+    </div>
+  </section>
+
+  <section class="portfolio">
+    <div class="portfolio-slider">
+      
+    </div>
+  </section>
+
+</body>
+</html>
