@@ -1,0 +1,107 @@
+@media (max-width: 700px) {
+  header .header-container .company-logo {
+    font-size: 22px;
+  }
+
+  header .header-container nav {
+    display: none;
+  }
+
+  header .header-container .call-number {
+    display: block;
+    font-family: NunitoRegular;
+    text-decoration: none;
+    color: black;
+    font-size: 20px !important;
+  }
+
+  .hero-section-content {
+    margin: 0 auto !important;
+    padding: 50px 10px !important;
+  }
+
+  .hero-section h1 {
+    padding: 0 10px !important;
+    font-size: 48px !important;
+  }
+
+  .hero-section h2 {
+    font-size: 40px !important;
+  }
+
+  .hero-section .list-of-services p {
+    font-size: 20px !important;
+    margin: 2px;
+    padding: 4px 7px !important;
+  }
+
+  .working-stages h2 {
+    font-size: 40px !important;
+  }
+
+  .working-stages .stage-item {
+    width: 95% !important;
+  }
+
+  .working-stages .stage-item img {
+    display: none;
+  }
+
+  .working-stages .stage-item h3 {
+    text-align: center;
+    font-size: 28px !important;
+  }
+
+  .working-stages .stage-item .stage-content {
+    justify-content: center;
+    padding: 5px !important;
+  }
+
+  .working-stages .stage-item .stage-description {
+    margin: 0 auto !important;
+    padding: 0 !important;
+    text-align: center;
+  }
+
+  .working-stages .stage-item .stage-description li {
+    padding: 7px 0px !important;
+  }
+
+  .period-of-time h2 {
+    font-size: 40px !important;
+  }
+
+  .period-of-time .comment {
+    font-size: 20px !important;
+  }
+
+  .terms-of-projects {
+    width: 95% !important;
+    justify-content: space-around;
+  }
+
+  .pricing h2 {
+    font-size: 40px !important;
+  }
+
+  .pricing h3 {
+    font-size: 32px !important;
+  }
+
+  .pricing .price-table {
+    justify-content: center;
+  }
+
+  .pricing .price-table .tariff-column {
+    width: 95% !important; 
+  }
+
+  .discount-offer h2 {
+    font-size: 40px !important;
+  }
+
+  .discount-offer .discount-item .comment {
+    text-align: center;
+    padding: 0 !important;
+  }
+}
