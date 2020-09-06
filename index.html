@@ -34,17 +34,17 @@
         <h1>Комплексный ремонт квартир в Рязани</h1>
         <h2>Список наших услуг:</h2>
         <div class="list-of-services">
-          <p>Поклейка обоев</p>
-          <p>Покраска обоев/стен</p>
-          <p>Штукатурка</p>
-          <p>Шпатлевка стен</p>
-          <p>Укладка линолеума</p>
-          <p>Электрика</p>
-          <p>Выравнивание пола</p>
-          <p>Монтаж/демонтаж перегородок</p>
-          <p>Декоративная штукатурка</p>
-          <p>Сантехника</p>
-          <p>Фигурные элементы из гипсокартона</p>
+          <p class="popup-trigger" id="wallpaper-popup">Поклейка обоев</p>
+          <p class="popup-trigger" id="painting-popup">Покраска обоев/стен</p>
+          <p class="popup-trigger" id="plaster-popup">Штукатурка</p>
+          <p class="popup-trigger" id="putty-popup">Шпатлевка стен</p>
+          <p class="popup-trigger" id="linoleum-popup">Укладка линолеума</p>
+          <p class="popup-trigger" id="electricity-popup">Электрика</p>
+          <p class="popup-trigger" id="ground-popup">Выравнивание пола</p>
+          <p class="popup-trigger" id="partition-popup">Монтаж/демонтаж перегородок</p>
+          <p class="popup-trigger" id="decor-plaster-popup">Декоративная штукатурка</p>
+          <p class="popup-trigger" id="plumbing-popup">Сантехника</p>
+          <p class="popup-trigger" id="elements-popup">Фигурные элементы из гипсокартона</p>
         </div>
       </div>
     </div>
@@ -281,6 +281,16 @@
       <p class="comment">Позвольте нам сделать ваш ремонт таким, каким его хотите видеть вы.</p>
       <span>8 900 602 78 50</span>
       <p class="comment">Ежедневно с 8:00 до 21:00</p>
+    </div>
+  </section>
+
+  <section class="popup" id="popup">
+    <div class="popup_body">
+      <div class="popup_content">
+        <div class="popup_close" id="service_popup_close">X</div>
+        <h3 id="popup_title"></h3>
+        <p id="popup_description"></p>
+      </div>
     </div>
   </section>
 

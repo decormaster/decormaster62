@@ -89,7 +89,9 @@
   }
 
   .pricing .price-table {
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
   }
 
   .pricing .price-table .tariff-column {
@@ -103,5 +105,9 @@
   .discount-offer .discount-item .comment {
     text-align: center;
     padding: 0 !important;
+  }
+
+  #popup_title {
+    font-size: 32px !important;
   }
 }
